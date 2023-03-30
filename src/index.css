@@ -1,4 +1,8 @@
 body {
-  padding: 20px 0 0 0;
+  padding: 0 0 0 0;
   font-size: 20px;
+}
+
+.navbar {
+  margin-bottom: 25px;
 }

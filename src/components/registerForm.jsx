@@ -14,8 +14,7 @@ class RegisterForm extends Form {
 		name: Joi.string().required().label("Name"),
 	};
 
-	doSubmit = (e) => {
-		this.handleSubmit(e);
+	doSubmit = () => {
 		//Call the server
 		console.log("Submitted!");
 	};

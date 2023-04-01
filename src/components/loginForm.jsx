@@ -13,8 +13,7 @@ class LoginForm extends Form {
 		password: Joi.string().required().label("Password"),
 	};
 
-	doSubmit = (e) => {
-		this.handleSubmit(e);
+	doSubmit = () => {
 		//Call the server
 		console.log("Submitted!");
 	};

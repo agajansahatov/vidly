@@ -6,9 +6,3 @@ body {
 .navbar {
   margin-bottom: 25px;
 }
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

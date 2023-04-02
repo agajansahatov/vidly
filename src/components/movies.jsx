@@ -118,7 +118,7 @@ class Movies extends Component {
 						className="btn btn-primary"
 						style={{ marginBottom: 20 }}
 					>
-						New Movie
+						Add New Movie
 					</Link>
 					<p>Showing {totalCount} movies in the database.</p>
 					<SearchBox value={searchQuery} onChange={this.handleSearch} />
